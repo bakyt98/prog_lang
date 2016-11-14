@@ -10,7 +10,7 @@ int b[100];
 	for (int i = 1; i <= n; ++i)
 		b[i] = 0;
 	for (int i=0; i<n; i++){
-		if (b[a[i]]!=0)
+		if (b[a[i]])
 			return;
 		b[a[i]] = true;
 	}
